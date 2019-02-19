@@ -1,68 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>한생서맛 - 광장시장</title>
-  <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133495674-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <meta charset="utf-8">
+    <title>한생서맛 - 광장시장</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133495674-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-133495674-1');
-</script>
+    gtag('config', 'UA-133495674-1');
+  </script>
+    <style>
+      #grid{
+        display:grid;
+        grid-template-columns: 200px 1fr;
+      }
+      #active{/*웹페이지안에모든active아이디를가르키는선택자*/
+        color:red;
+      }
+      #main{
+        padding-left:20px;
+      }
+      .saw{/*이웹페이지안에있는클래스가saw인태그를가르키는선택자*/
+        color:gray;
+      }
+      a{/*이웹페이지안에있는a태그를가르키는선택자*/
+        color:black;/*웹페이지안에모든a태그에대해컬러블랙선언*/
+        text-decoration: none;/*웹페이지안에모든a태그에대해텍스트스타일논선언*/
 
-</head>
-<body>
-  <h1>한나가 생각하는 서울의 <a href="index.html">맛집</h1>
-  <ol>
-    <li><a href="1.html">광장시장</a></li>
-    <li><a href="2.html">홍대</a></li>
-    <li><a href="3.html">노량진컵밥거리</a></li>
-  </ol>
-  <h2>광장시장</h2>
-  <img src="꽈배기.jpg" width="300">
-  <p>광장시장 찹쌀 꽈배기 - 1000원
-    <br>1호선 종로5가역에서 8번출구로 쭉 1분 정도 걸어가면 광장시장이 보일 것 이다.
-    <br>입구에 긴 2줄이 보일텐데 하나는 수수부꾸미,하나는 이 찹쌀 꽈배기 집 줄이다.
-    <br>갓 튀겨져 나온 꽈배기들은 식을세 없이 빠르게 팔려나간다.
-    <br>겉에는 갈색설탕과 시나몬 가루가 뿌려져 있다.
-    <br>시나몬 가루가 기름의 느끼함을 잡아주고 갈색설탕은 달달 함을 더해 준다.
-    <br>겉은 바삭 속은 촉촉한데 따뜻할떄 찢어먹으면 크루아상처럼 빵결이 보인다.
-  </p>
-  <img src="녹두전.jpg" width="300">
-  <p>박가네 녹두전 - 4000원
-    <br>꽈배기를 사 먹으면서 시장으로 쭉 들어가면 사거리가 되는 곳이 있다.
-    <br>그곳이 시장의 정 중앙인데 그곳에는 여러 녹두전 집이 있다.
-    <br>거기서 사람이 적당히 많아 보이는 곳에 줄을 서는 것이 좋다.
-    <br>거기서 바로 구워져 나오는걸 앉아서 먹을수 있지만
-    <br>포장이라고 말하면 구워지지 않은 것으로 담아 주신다.
-    <br>같이 나오는 간장양파는 녹두전에 한 조각 올려 먹으면 상큼하니 맛있다.
-  </p>
-  <img src="붕어빵.jpg" width="300">
-  <p>총각네 붕어빵 - 단팥1개800원/슈크림2개1500원
-    <br>가던길 그대로 쭉 가면 제일 끝에 가게가 있다.
-    <br>가격은 저렇게 써 있었는데 슈크림4개,단팥2개로 사왔을떄.
-    <br>4600원이 아니라 4500원인것은 아직도 미궁이다.(할인인가...)
-    <br>단팥은 다른 곳에서 볼수 없는 과일이 들어있다.조금은 충격적이었지만
-    <br>한입물떄 파인애플향기가 은은하게 배인 것이 일반 붕어빵보다 더 좋았다.
-    <br>슈크림은 일반 슈크림 붕어빵보다 꾸덕뚜덕한 슈크림이어서 특이했다.
-    <br>슈크림을 주걱으로 퍼서 넣어주시는데 정말정말 많이 넣어 주신다.
-    <br>겉은 빵부분은 와플 느낌이 난다.
-    <br>그자리에서 바로 먹는것이 좋다.종이봉투에 담아 집으로 가져오면 죽탕이 된다.
-  </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_Lpv9kQ_fak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--동영상삽입-->
-  <img src="육회비빔밥.jpg" width="250">
-  <p>육회 자매집 - 육회15000/육회덮밥7000
-    <br>왔던길로 다시 되돌아가 시장을 바라보고 오른쪽에 1,2호점 왼쪽에 3호점이있다.
-    <br>육회는 가운데 계란 노른자를 터트려 비벼먹는데 노른자와 고기가 만나
-    <br>씹을 수록 더욱 고소한 맛을 낸다.
-    <br>육회 비빔밥은 새콤한 초고추장을 비벼먹는데
-    <br>찬고기와 따뜻한 밥이 만나 썩 어울리지는 않았다.
-    <br>육회를 좋아 한다면 육회만 두접시 시키는 것도 나쁘지 않다고 생각한다.
-  </p>
-  <p>
+      }
+      h1 {/*이웹페이지안에있는h1태그를가르키는선택자*/
+        font-size:60px;/*웹페이지안에모든h1태그에대해폰트사이즈60픽셀선언*/
+        text-align: center;/*웹페이지안에모든h1태그에대해가운데정렬선언*/
+        border-bottom:3px solid black;
+        margin:0;
+        padding:20px;
+      }
+      ol{
+        width:150px;
+        margin:0;
+        padding-left:30px;
+        padding-top:15px;
+      }
+      body{
+        margin:0;
+      }
+      div{
+        border-left:1px solid black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>한나가 생각하는 서울의 <a href="index.html">맛집</a></h1>
+    <div id="grid">
+      <div><ol>
+        <li><a href="1.html" class="saw" id="active">광장시장</a></li>
+        <li><a href="2.html" class="saw">홍대</a></li>
+        <li><a href="3.html" class="saw">노량진컵밥거리</a></li>
+      </ol></div>
+      <div id="main"><h2><a href="http://www.kwangjangmarket.co.kr/">광장시장</a></h2>
+      <img src="꽈배기.jpg" width="300">
+      <p>광장시장 찹쌀 꽈배기 - 1000원
+        <br>1호선 종로5가역에서 8번출구로 쭉 1분 정도 걸어가면 광장시장이 보일 것 이다.
+        입구에 긴 2줄이 보일텐데 하나는 수수부꾸미,하나는 이 찹쌀 꽈배기 집 줄이다.
+        갓 튀겨져 나온 꽈배기들은 식을세 없이 빠르게 팔려나간다.
+        겉에는 갈색설탕과 시나몬 가루가 뿌려져 있다.
+        시나몬 가루가 기름의 느끼함을 잡아주고 갈색설탕은 달달 함을 더해 준다.
+        겉은 바삭 속은 촉촉한데 따뜻할떄 찢어먹으면 크루아상처럼 빵결이 보인다.
+      </p>
+      <img src="녹두전.jpg" width="300">
+    <p>박가네 녹두전 - 4000원
+      <br>꽈배기를 사 먹으면서 시장으로 쭉 들어가면 사거리가 되는 곳이 있다.
+      그곳이 시장의 정 중앙인데 그곳에는 여러 녹두전 집이 있다.
+      거기서 사람이 적당히 많아 보이는 곳에 줄을 서는 것이 좋다.
+      거기서 바로 구워져 나오는걸 앉아서 먹을수 있지만
+      포장이라고 말하면 구워지지 않은 것으로 담아 주신다.
+      같이 나오는 간장양파는 녹두전에 한 조각 올려 먹으면 상큼하니 맛있다.
+    </p>
+    <img src="붕어빵.jpg" width="300">
+    <p>총각네 붕어빵 - 단팥1개800원/슈크림2개1500원
+      <br>가던길 그대로 쭉 가면 제일 끝에 가게가 있다.
+      가격은 저렇게 써 있었는데 슈크림4개,단팥2개로 사왔을떄.
+      4600원이 아니라 4500원인것은 아직도 미궁이다.(할인인가...)
+      단팥은 다른 곳에서 볼수 없는 과일이 들어있다.조금은 충격적이었지만
+      한입물떄 파인애플향기가 은은하게 배인 것이 일반 붕어빵보다 더 좋았다.
+      슈크림은 일반 슈크림 붕어빵보다 꾸덕뚜덕한 슈크림이어서 특이했다.
+      슈크림을 주걱으로 퍼서 넣어주시는데 정말정말 많이 넣어 주신다.
+      겉은 빵부분은 와플 느낌이 난다.
+      그자리에서 바로 먹는것이 좋다.종이봉투에 담아 집으로 가져오면 죽탕이 된다.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_Lpv9kQ_fak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--동영상삽입-->
+    <img src="육회비빔밥.jpg" width="250">
+    <p>육회 자매집 - 육회15000/육회덮밥7000
+      <br>왔던길로 다시 되돌아가 시장을 바라보고 오른쪽에 1,2호점 왼쪽에 3호점이있다.
+      육회는 가운데 계란 노른자를 터트려 비벼먹는데 노른자와 고기가 만나
+      씹을 수록 더욱 고소한 맛을 낸다.
+      육회 비빔밥은 새콤한 초고추장을 비벼먹는데
+      찬고기와 따뜻한 밥이 만나 썩 어울리지는 않았다.
+      육회를 좋아 한다면 육회만 두접시 시키는 것도 나쁘지 않다고 생각한다.
+    </p>
+    </div>
+    </div>
     <div id="disqus_thread"></div>
     <script>
 
@@ -101,5 +142,5 @@
      <!--End of Tawk.to Script-->
      <!--채팅기능-->
   </p>
-</body>
+  </body>
 </html>
