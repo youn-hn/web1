@@ -12,18 +12,60 @@
 
   gtag('config', 'UA-133495674-1');
 </script>
+<style>
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #active{/*웹페이지안에모든active아이디를가르키는선택자*/
+    color:red;
+  }
+  #main{
+    padding-left:20px;
+  }
+  .saw{/*이웹페이지안에있는클래스가saw인태그를가르키는선택자*/
+    color:gray;
+  }
+  a{/*이웹페이지안에있는a태그를가르키는선택자*/
+    color:black;/*웹페이지안에모든a태그에대해컬러블랙선언*/
+    text-decoration: none;/*웹페이지안에모든a태그에대해텍스트스타일논선언*/
 
+  }
+  h1 {/*이웹페이지안에있는h1태그를가르키는선택자*/
+    font-size:60px;/*웹페이지안에모든h1태그에대해폰트사이즈60픽셀선언*/
+    text-align: center;/*웹페이지안에모든h1태그에대해가운데정렬선언*/
+    border-bottom:3px solid black;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    width:150px;
+    margin:0;
+    padding-left:30px;
+    padding-top:15px;
+  }
+  body{
+    margin:0;
+  }
+  div{
+    border-left:1px solid black;
+  }
+
+</style>
 </head>
 <body>
-  <h1>한나가 생각하는 서울의 <a href="index.html">맛집</h1>
-  <ol>
-    <li><a href="1.html">광장시장</a></li>
-    <li><a href="2.html">홍대</a></li>
-    <li><a href="3.html">노량진컵밥거리</a></li>
-  </ol>
-  <h2>맛집이란?</h2>
-  *음식의 <strong>맛</strong>이 뛰어나기로 유명한 음식<strong>집</strong>
-  <p>
+  <h1>한나가 생각하는 서울의 <a href="index.html"id="active">맛집</h1>
+  <div id="grid">
+    <div><ol>
+      <li><a href="1.html" class="saw">광장시장</a></li>
+      <li><a href="2.html" class="saw">홍대</a></li>
+      <li><a href="3.html" class="saw">노량진컵밥거리</a></li>
+    </ol></div>
+    <div id="main"><h2>맛집이란?</h2>
+    *음식의 <strong>맛</strong>이 뛰어나기로 유명한 음식<strong>집</strong>
+    <p>
+    </div>
+  </div>
     <div id="disqus_thread"></div>
     <script>
 
